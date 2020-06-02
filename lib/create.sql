@@ -13,6 +13,3 @@ CREATE TABLE projects (
   age INTEGER
   );
   
-  CREATE TABLE pledges (
-  
-  );
