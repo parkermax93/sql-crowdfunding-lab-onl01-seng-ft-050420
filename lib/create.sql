@@ -3,3 +3,5 @@ CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, ais
   INSERT INTO groceries VALUES (1, "Apples", 2, 1);
   INSERT INTO groceries VALUES (2, "Oranges", 4, 2);
   INSERT INTO groceries VALUES (2, "Peaches", 6, 3);
+  
+  SELECT * FROM groceries;
