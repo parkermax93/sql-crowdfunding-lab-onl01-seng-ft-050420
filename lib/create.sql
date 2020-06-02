@@ -1,7 +1,3 @@
-CREATE TABLE groceries (id INTEGER PRIMARY KEY, name TEXT, quantity INTEGER, aisle INTEGER);
+CREATE TABLE projects (title TEXT, category TEXT, funding_goal INTEGER, start_date INTEGER, end_date INTEGER);
+
   
-  INSERT INTO groceries VALUES (1, "Apples", 2, 1);
-  INSERT INTO groceries VALUES (2, "Oranges", 4, 2);
-  INSERT INTO groceries VALUES (2, "Peaches", 6, 3);
-  
-  SELECT * FROM groceries;
